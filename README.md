@@ -1,2 +1,3 @@
 # rapaziada-me-ajuda-ai
-preciso de ajuda na criação de uma extensão 
+Eu estou criando uma extensão mas ela não funciona de jeito algum, quem puder dar uma olhada e me ajudar
+
