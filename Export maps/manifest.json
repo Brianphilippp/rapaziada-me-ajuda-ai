@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "Extractor de Empresas do Google Maps",
+    "version": "1.0",
+    "description": "Esta extensão extrai informações de empresas do Google Maps e as salva em uma planilha do Google Sheets.",
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "icon-16.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    },
+    "host_permissions": [
+        "https://sheets.googleapis.com/",
+      "https://www.google.com/maps/*",
+      "https://docs.google.com/spreadsheets/*"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon-16.png",
+        "48": "icon-48.png"
+      }
+    }
+  }
+  
